@@ -1,0 +1,162 @@
+#ads-text-publisher .hwt-container {
+  background-color: #fff;
+  width: 100%; }
+
+#ads-text-publisher .hwt-content {
+  width: 100%;
+  height: 388px;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  color: inherit;
+  font-size: 14px; }
+  #ads-text-publisher .hwt-content[disabled="disabled"] {
+    background-color: #fbfbfb; }
+
+#ads-text-publisher .hwt-input:focus {
+  border-color: #5b9dd9; }
+
+#ads-text-publisher .hwt-content mark {
+  background-color: rgba(220, 20, 60, 0.2); }
+
+#ads-text-publisher .hwt-content mark.red {
+  background-color: #ffc9c9; }
+
+#ads-text-publisher .hwt-content mark.blue {
+  background-color: #a3daff; }
+
+#ads-text-publisher .hwt-content mark.yellow {
+  background-color: #ffec99; }
+
+body.wp-admin.adstxt-publisher #wpbody-content > .error {
+  display: none; }
+
+.ads-text-publisher {
+  padding: 20px 20px 0 0; }
+  .ads-text-publisher--alert {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    border-radius: 0px; }
+    .ads-text-publisher--alert .swal-text {
+      text-align: center;
+      font-size: 14px;
+      line-height: 20px; }
+    .ads-text-publisher--alert .swal-footer {
+      text-align: center; }
+  .ads-text-publisher--hero-block {
+    background-color: #fff;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    margin-bottom: 30px;
+    background-image: url(../images/hero-pattern.jpg);
+    background-size: 1536px 512px;
+    background-position: 50% 50%; }
+  .ads-text-publisher--copyright {
+    width: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    position: relative;
+    top: 3px; }
+    .ads-text-publisher--copyright img {
+      width: 160px;
+      margin-left: 10px; }
+  .ads-text-publisher--header-title {
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px; }
+  .ads-text-publisher--row {
+    display: flex; }
+  .ads-text-publisher--column-main {
+    width: 68%;
+    margin-right: 2%; }
+  .ads-text-publisher--column-sidebar {
+    width: 30%; }
+  .ads-text-publisher--card {
+    background: #fcfcfc;
+    border: 1px solid #e5e5e5;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    position: relative; }
+    .ads-text-publisher--card h2 {
+      margin-top: 0;
+      line-height: 25px; }
+    .ads-text-publisher--card--close {
+      float: right;
+      font-weight: normal;
+      cursor: pointer;
+      position: absolute;
+      top: 15px;
+      right: 15px; }
+    .ads-text-publisher--card h3 {
+      margin-top: 0px; }
+    .ads-text-publisher--card p {
+      margin-top: 0; }
+      .ads-text-publisher--card p:last-child {
+        margin-bottom: 0; }
+  .ads-text-publisher--label {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-bottom: 5px; }
+  .ads-text-publisher--textarea {
+    background-color: #fff;
+    width: 100%;
+    height: 388px;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    color: inherit;
+    font-size: 14px;
+    padding: 10px; }
+  .ads-text-publisher--invite-form--description {
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5; }
+  .ads-text-publisher--edit-form {
+    margin-bottom: 20px;
+    position: relative; }
+  .ads-text-publisher--text-output {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 3px 7px;
+    resize: vertical;
+    white-space: pre-wrap;
+    font-size: 14px;
+    font-family: monospace;
+    line-height: 20px;
+    letter-spacing: 0.3px; }
+  .ads-text-publisher--message {
+    position: relative;
+    margin: 0 0 20px 0; }
+    .ads-text-publisher--message ul {
+      margin: 0; }
+    .ads-text-publisher--message h3 {
+      margin: 0;
+      margin-bottom: 12px; }
+    .ads-text-publisher--message--error {
+      cursor: pointer; }
+      .ads-text-publisher--message--error:hover {
+        opacity: 0.8; }
+      .ads-text-publisher--message--error > ul {
+        margin-top: 5px;
+        list-style-type: disc;
+        margin-left: 20px; }
+    .ads-text-publisher--message p {
+      max-width: 90%; }
+  .ads-text-publisher--close-message {
+    float: right;
+    cursor: pointer;
+    font-style: normal;
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    top: 8px; }
+    .ads-text-publisher--close-message:hover {
+      opacity: 0.7; }
